@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Policy — Auggie Medical Transportation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .policy-page { max-width: 800px; margin: 0 auto; padding: 120px 24px 80px; }
+    .policy-back { display: inline-flex; align-items: center; gap: 8px; color: var(--accent-emerald-light); text-decoration: none; font-size: 0.9rem; font-weight: 600; margin-bottom: 40px; transition: opacity 0.2s; }
+    .policy-back:hover { opacity: 0.7; }
+    .policy-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-emerald-light); margin-bottom: 12px; }
+    .policy-title { font-family: var(--font-heading); font-size: 2.4rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px; }
+    .policy-updated { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--border-glass); }
+    .policy-section { margin-bottom: 40px; }
+    .policy-section h2 { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
+    .policy-section p, .policy-section li { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; font-weight: 300; }
+    .policy-section ul { padding-left: 20px; margin-top: 8px; }
+    .policy-section li { margin-bottom: 6px; }
+    .highlight-box { background: rgba(16,185,129,0.07); border: 1px solid rgba(16,185,129,0.2); border-radius: 10px; padding: 16px 20px; margin: 16px 0; }
+    .highlight-box p { color: var(--text-primary) !important; font-weight: 500 !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="navBadgeGrad" x1="0%" y1="0%" x2="135%" y2="135%">
+              <stop offset="0%" style="stop-color:#185FA5"/>
+              <stop offset="100%" style="stop-color:#0F6E56"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="2" width="44" height="44" rx="8" fill="url(#navBadgeGrad)"/>
+          <text x="22" y="32" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="-0.5">AMT</text>
+          <text x="54" y="18" font-family="Outfit,sans-serif" font-weight="800" font-size="13" fill="#185FA5" letter-spacing="1.5">AUGGIE MEDICAL</text>
+          <text x="54" y="34" font-family="Outfit,sans-serif" font-weight="700" font-size="11" fill="#1D9E75" letter-spacing="2">TRANSPORTATION</text>
+          <rect x="54" y="39" width="160" height="1.5" rx="1" fill="url(#navBadgeGrad)"/>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <div class="policy-page">
+    <a href="index.html" class="policy-back">← Back to Home</a>
+    <p class="policy-label">Legal</p>
+    <h1 class="policy-title">Payment Policy</h1>
+    <p class="policy-updated">Last updated: June 2026</p>
+
+    <div class="policy-section">
+      <h2>1. Accepted Payment Methods</h2>
+      <p>Auggie Medical Transportation accepts the following forms of payment:</p>
+      <ul>
+        <li>Cash (preferred)</li>
+        <li>Credit & Debit Cards (Visa, Mastercard, Discover)</li>
+        <li>Zelle</li>
+        <li>Cash App</li>
+        <li>Insurance / Medicaid billing (where applicable)</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. When Payment is Due</h2>
+      <p>Payment is due at the time of service unless a prior billing arrangement has been made. For recurring clients (e.g. dialysis transport), weekly invoicing can be arranged upon request.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. Refund Policy</h2>
+      <div class="highlight-box">
+        <p>✅ Full refund available if cancelled <strong>more than 24 hours</strong> before the scheduled ride.</p>
+      </div>
+      <div class="highlight-box" style="background:rgba(239,68,68,0.07);border-color:rgba(239,68,68,0.2);">
+        <p>❌ <strong>No refund</strong> for cancellations made <strong>within 24 hours</strong> of the scheduled ride.</p>
+      </div>
+      <p>Refunds are processed within 3–5 business days to the original payment method.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>4. Insurance & Medicaid</h2>
+      <p>We work with select insurance providers and Medicaid programs. Please contact us in advance to confirm coverage eligibility before booking. Patients are responsible for any amounts not covered by their insurance plan.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. Additional Charges</h2>
+      <p>Additional charges may apply for:</p>
+      <ul>
+        <li>Extended wait time beyond 10 minutes</li>
+        <li>Out-of-service-area trips</li>
+        <li>Last-minute booking requests</li>
+        <li>Special equipment or stretcher transport</li>
+      </ul>
+      <p>All additional charges will be communicated before the ride is confirmed.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. Contact Us</h2>
+      <p>For payment questions or billing inquiries:</p>
+      <ul>
+        <li>📞 Phone/WhatsApp: +1 (269) 615-3566</li>
+        <li>📧 Email: auggiemedicaltransportatin@yahoo.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-bottom" style="text-align:center;padding:24px;">
+      <p>&copy; 2026 Auggie Medical Transportation. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
