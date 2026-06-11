@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Policy — Auggie Medical Transportation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .policy-page { max-width: 800px; margin: 0 auto; padding: 120px 24px 80px; }
+    .policy-back { display: inline-flex; align-items: center; gap: 8px; color: var(--accent-emerald-light); text-decoration: none; font-size: 0.9rem; font-weight: 600; margin-bottom: 40px; transition: opacity 0.2s; }
+    .policy-back:hover { opacity: 0.7; }
+    .policy-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-emerald-light); margin-bottom: 12px; }
+    .policy-title { font-family: var(--font-heading); font-size: 2.4rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px; }
+    .policy-updated { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--border-glass); }
+    .policy-section { margin-bottom: 40px; }
+    .policy-section h2 { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
+    .policy-section p, .policy-section li { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; font-weight: 300; }
+    .policy-section ul { padding-left: 20px; margin-top: 8px; }
+    .policy-section li { margin-bottom: 6px; }
+    .highlight-box { background: rgba(16,185,129,0.07); border: 1px solid rgba(16,185,129,0.2); border-radius: 10px; padding: 16px 20px; margin: 16px 0; }
+    .highlight-box p { color: var(--text-primary) !important; font-weight: 500 !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="navBadgeGrad" x1="0%" y1="0%" x2="135%" y2="135%">
+              <stop offset="0%" style="stop-color:#185FA5"/>
+              <stop offset="100%" style="stop-color:#0F6E56"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="2" width="44" height="44" rx="8" fill="url(#navBadgeGrad)"/>
+          <text x="22" y="32" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="-0.5">AMT</text>
+          <text x="54" y="18" font-family="Outfit,sans-serif" font-weight="800" font-size="13" fill="#185FA5" letter-spacing="1.5">AUGGIE MEDICAL</text>
+          <text x="54" y="34" font-family="Outfit,sans-serif" font-weight="700" font-size="11" fill="#1D9E75" letter-spacing="2">TRANSPORTATION</text>
+          <rect x="54" y="39" width="160" height="1.5" rx="1" fill="url(#navBadgeGrad)"/>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <div class="policy-page">
+    <a href="index.html" class="policy-back">← Back to Home</a>
+    <p class="policy-label">Legal</p>
+    <h1 class="policy-title">Booking Policy</h1>
+    <p class="policy-updated">Last updated: June 2026</p>
+
+    <div class="policy-section">
+      <h2>1. How to Book a Ride</h2>
+      <p>All rides with Auggie Medical Transportation must be scheduled in advance via WhatsApp, phone call, or our online booking form. We accept bookings 24 hours a day, 7 days a week.</p>
+      <ul>
+        <li>WhatsApp: +1 (269) 615-3566</li>
+        <li>Phone: +1 (269) 615-3566</li>
+        <li>Online: Via the WhatsApp Booking form on our website</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. Advance Notice Required</h2>
+      <p>We strongly recommend booking at least <strong>24 hours in advance</strong> to guarantee availability. Same-day bookings are accepted based on driver availability and cannot be guaranteed.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. Cancellation & Refund Policy</h2>
+      <div class="highlight-box">
+        <p>✅ Full refund available if cancelled <strong>more than 24 hours</strong> before the scheduled ride.</p>
+      </div>
+      <div class="highlight-box" style="background:rgba(239,68,68,0.07);border-color:rgba(239,68,68,0.2);">
+        <p>❌ <strong>No refund</strong> for cancellations made <strong>within 24 hours</strong> of the scheduled ride.</p>
+      </div>
+      <p>To cancel, contact us via WhatsApp or phone as soon as possible. Cancellation time is recorded from when we receive your message.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>4. No-Show Policy</h2>
+      <p>If a passenger is not available at the pickup location at the scheduled time and no prior notice was given, the ride will be considered a no-show and no refund will be issued.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. Wait Time</h2>
+      <p>Our drivers will wait up to <strong>10 minutes</strong> at the pickup location. After 10 minutes without contact, the ride may be marked as a no-show.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. Ride Modifications</h2>
+      <p>Changes to pickup time, location, or destination must be communicated at least <strong>2 hours before</strong> the scheduled ride. Last-minute changes are subject to availability and may incur additional charges.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>7. Contact Us</h2>
+      <p>For any booking questions, contact us at:</p>
+      <ul>
+        <li>📞 Phone/WhatsApp: +1 (269) 615-3566</li>
+        <li>📧 Email: auggiemedicaltransportatin@yahoo.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-bottom" style="text-align:center;padding:24px;">
+      <p>&copy; 2026 Auggie Medical Transportation. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
