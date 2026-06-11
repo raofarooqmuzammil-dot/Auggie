@@ -1740,7 +1740,7 @@
   /* Floating Google Badge */
   .google-float-badge {
     position: fixed;
-    bottom: 110px;
+    bottom: 24px;
     left: 20px;
     z-index: 9999;
     background: #ffffff;
@@ -1791,8 +1791,8 @@
   /* Mobile adjustments */
   @media (max-width: 768px) {
     .google-float-badge {
-      bottom: 90px;
-      left: 16px;
+      bottom: 16px;
+      left: 12px;
       padding: 8px 12px;
     }
     .reviews-cta {
