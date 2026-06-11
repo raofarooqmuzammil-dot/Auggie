@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Construct WhatsApp message template
-      const headerMsg = "Hi Auggie Medical transport how i can assist you. I'd like to book a ride request:\n\n";
+      const headerMsg = "Hello, I'd like to schedule a transport.\n\n";
       const detailsMsg = 
         `📋 *RIDE REQUEST DETAILS*\n` +
         `👤 *Passenger:* ${name}\n` +
@@ -230,27 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ==========================================
-  // 5. Floating WhatsApp Widget Interactive Prompt
+  // 5. Floating WhatsApp Widget
   // ==========================================
-  const floatWidget = document.querySelector('.whatsapp-float-widget');
-  if (floatWidget) {
-    // Show tooltip alert briefly after 4 seconds to catch user's eye
-    setTimeout(() => {
-      const tooltip = floatWidget.querySelector('.float-tooltip');
-      if (tooltip) {
-        tooltip.style.opacity = '1';
-        tooltip.style.transform = 'translateX(0)';
-        
-        // Hide it after 6 seconds if user doesn't hover over it
-        setTimeout(() => {
-          // Check if user is hovering currently; if not, hide
-          if (!floatWidget.matches(':hover')) {
-            tooltip.style.opacity = '';
-            tooltip.style.transform = '';
-          }
-        }, 6000);
-      }
-    }, 4000);
-  }
 
 });
