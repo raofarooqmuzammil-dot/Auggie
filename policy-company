@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Policy — Auggie Medical Transportation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .policy-page { max-width: 800px; margin: 0 auto; padding: 120px 24px 80px; }
+    .policy-back { display: inline-flex; align-items: center; gap: 8px; color: var(--accent-emerald-light); text-decoration: none; font-size: 0.9rem; font-weight: 600; margin-bottom: 40px; transition: opacity 0.2s; }
+    .policy-back:hover { opacity: 0.7; }
+    .policy-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-emerald-light); margin-bottom: 12px; }
+    .policy-title { font-family: var(--font-heading); font-size: 2.4rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px; }
+    .policy-updated { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--border-glass); }
+    .policy-section { margin-bottom: 40px; }
+    .policy-section h2 { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; }
+    .policy-section p, .policy-section li { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; font-weight: 300; }
+    .policy-section ul { padding-left: 20px; margin-top: 8px; }
+    .policy-section li { margin-bottom: 6px; }
+    .highlight-box { background: rgba(16,185,129,0.07); border: 1px solid rgba(16,185,129,0.2); border-radius: 10px; padding: 16px 20px; margin: 16px 0; }
+    .highlight-box p { color: var(--text-primary) !important; font-weight: 500 !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="navBadgeGrad" x1="0%" y1="0%" x2="135%" y2="135%">
+              <stop offset="0%" style="stop-color:#185FA5"/>
+              <stop offset="100%" style="stop-color:#0F6E56"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="2" width="44" height="44" rx="8" fill="url(#navBadgeGrad)"/>
+          <text x="22" y="32" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="-0.5">AMT</text>
+          <text x="54" y="18" font-family="Outfit,sans-serif" font-weight="800" font-size="13" fill="#185FA5" letter-spacing="1.5">AUGGIE MEDICAL</text>
+          <text x="54" y="34" font-family="Outfit,sans-serif" font-weight="700" font-size="11" fill="#1D9E75" letter-spacing="2">TRANSPORTATION</text>
+          <rect x="54" y="39" width="160" height="1.5" rx="1" fill="url(#navBadgeGrad)"/>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <div class="policy-page">
+    <a href="index.html" class="policy-back">← Back to Home</a>
+    <p class="policy-label">Legal</p>
+    <h1 class="policy-title">Company Policy</h1>
+    <p class="policy-updated">Last updated: June 2026</p>
+
+    <div class="policy-section">
+      <h2>1. Our Mission</h2>
+      <p>Auggie Medical Transportation is committed to providing safe, reliable, punctual, and compassionate non-emergency medical transportation (NEMT) to individuals across Downriver Michigan and Metro Detroit. Every passenger is treated with dignity and respect.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. Driver Standards</h2>
+      <p>All Auggie Medical Transportation drivers are required to:</p>
+      <ul>
+        <li>Hold a valid Michigan driver's license</li>
+        <li>Pass a comprehensive background check</li>
+        <li>Be BLS (Basic Life Support) certified</li>
+        <li>Be First Aid certified</li>
+        <li>Complete patient handling and safety training</li>
+        <li>Maintain a professional, courteous demeanor at all times</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. Vehicle Standards</h2>
+      <p>All vehicles in our fleet are:</p>
+      <ul>
+        <li>Regularly inspected and maintained</li>
+        <li>Cleaned and sanitized between rides</li>
+        <li>Equipped with wheelchair ramps or stretcher capability where applicable</li>
+        <li>ADA compliant for accessible transport</li>
+        <li>Fully insured and licensed</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>4. Passenger Safety</h2>
+      <p>The safety of every passenger is our top priority. Our drivers are trained to assist with boarding and alighting, secure wheelchairs properly, and respond to medical situations calmly while contacting emergency services if required.</p>
+      <div class="highlight-box">
+        <p>⚠️ Our service is non-emergency transport only. In a medical emergency, please call 911 immediately.</p>
+      </div>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. HIPAA Compliance</h2>
+      <p>Auggie Medical Transportation respects the privacy and confidentiality of all passengers. We comply with HIPAA regulations and do not share personal health information with any third parties without written consent.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. Conduct Policy</h2>
+      <p>We reserve the right to refuse or terminate service if a passenger or accompanying person:</p>
+      <ul>
+        <li>Is verbally or physically abusive toward the driver</li>
+        <li>Is under the influence of alcohol or illegal substances</li>
+        <li>Engages in behavior that poses a safety risk</li>
+      </ul>
+      <p>In such cases, no refund will be issued.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>7. Service Area</h2>
+      <p>We primarily serve Wayne County, including Taylor, Dearborn, Detroit, and surrounding Downriver communities. Out-of-area trips may be available upon request and may incur additional charges.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>8. Contact Us</h2>
+      <p>For any policy questions or concerns:</p>
+      <ul>
+        <li>📞 Phone/WhatsApp: +1 (269) 615-3566</li>
+        <li>📧 Email: auggiemedicaltransportatin@yahoo.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-bottom" style="text-align:center;padding:24px;">
+      <p>&copy; 2026 Auggie Medical Transportation. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
