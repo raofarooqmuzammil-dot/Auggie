@@ -916,65 +916,112 @@
      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
      border: 1px solid var(--border-glass);
    }
-   
+
    .embed-map {
      width: 100%;
      height: 100%;
      border: 0;
      display: block;
-     filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(90%); /* Dark map theme style */
+     filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(90%);
    }
-   
-   .map-overlay-card {
-     position: absolute;
-     top: 24px;
-     left: 24px;
-     background: rgba(8, 15, 26, 0.85);
-     backdrop-filter: blur(16px);
-     -webkit-backdrop-filter: blur(16px);
-     border: 1px solid var(--border-glass);
-     color: var(--text-secondary);
-     border-radius: var(--radius-md);
-     padding: 24px;
-     max-width: 280px;
-     box-shadow: var(--shadow-lg);
-     z-index: 20;
+
+   .dispatch-card {
+     margin-top: 20px;
+     border-radius: var(--radius-lg);
+     padding: 0;
+     overflow: hidden;
    }
-   
-   .map-overlay-card h4 {
-     font-size: 0.95rem;
-     color: var(--accent-emerald-light);
-     margin-bottom: 6px;
+
+   .dispatch-card-inner {
+     display: flex;
+     align-items: stretch;
+     flex-wrap: wrap;
    }
-   
-   .overlay-hours {
-     font-size: 0.72rem;
-     font-weight: 600;
-     color: var(--text-muted);
-     margin-bottom: 12px;
-     text-transform: uppercase;
-     letter-spacing: 0.05em;
+
+   .dispatch-item {
+     display: flex;
+     align-items: center;
+     gap: 14px;
+     padding: 22px 28px;
+     flex: 1;
+     min-width: 200px;
    }
-   
-   .map-call-link {
-     font-size: 1.15rem;
-     font-weight: 700;
-     color: var(--text-primary);
+
+   .dispatch-maps-link {
+     display: flex;
+     align-items: center;
+     gap: 14px;
+     padding: 22px 28px;
+     flex: 1;
+     min-width: 200px;
      text-decoration: none;
-     display: block;
-     margin-bottom: 12px;
-     transition: var(--transition-premium);
+     transition: background 0.2s ease;
    }
-   
-   .map-call-link:hover {
-     color: var(--accent-emerald-light);
+
+   .dispatch-maps-link:hover {
+     background: rgba(255, 255, 255, 0.03);
    }
-   
-   .overlay-note {
+
+   .dispatch-maps-link:hover .dispatch-link-text {
+     color: hsl(168, 80%, 45%);
+   }
+
+   .dispatch-divider {
+     width: 1px;
+     background: var(--border-glass);
+     align-self: stretch;
+   }
+
+   .dispatch-icon {
+     font-size: 1.4rem;
+     flex-shrink: 0;
+   }
+
+   .dispatch-label {
      font-size: 0.7rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 0.08em;
      color: var(--text-muted);
-     line-height: 1.5;
-     font-weight: 300;
+     margin-bottom: 4px;
+   }
+
+   .dispatch-value {
+     font-size: 0.88rem;
+     font-weight: 500;
+     color: var(--text-primary);
+   }
+
+   .dispatch-phone {
+     font-size: 1.1rem;
+     font-weight: 700;
+     color: var(--accent-emerald-light);
+     text-decoration: none;
+     transition: opacity 0.2s ease;
+   }
+
+   .dispatch-phone:hover {
+     opacity: 0.8;
+   }
+
+   .dispatch-link-text {
+     color: var(--text-primary);
+     transition: color 0.2s ease;
+   }
+
+   @media (max-width: 768px) {
+     .dispatch-card-inner {
+       flex-direction: column;
+     }
+     .dispatch-divider {
+       width: 100%;
+       height: 1px;
+       align-self: auto;
+     }
+     .dispatch-item,
+     .dispatch-maps-link {
+       padding: 16px 20px;
+     }
    }
    
    /* Fleet Gallery Section */
