@@ -30,7 +30,19 @@
   <header>
     <nav class="nav-container">
       <a href="#home" class="nav-logo">
-        <img src="assets/logo.png" alt="Auggie Medical Transportation Logo" class="logo-img">
+        <svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Auggie Medical Transportation">
+          <defs>
+            <linearGradient id="navBadgeGrad" x1="0%" y1="0%" x2="135%" y2="135%">
+              <stop offset="0%" style="stop-color:#185FA5"/>
+              <stop offset="100%" style="stop-color:#0F6E56"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="2" width="44" height="44" rx="8" fill="url(#navBadgeGrad)"/>
+          <text x="22" y="32" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="-0.5">AMT</text>
+          <text x="54" y="18" font-family="Outfit,sans-serif" font-weight="800" font-size="13" fill="#185FA5" letter-spacing="1.5">AUGGIE MEDICAL</text>
+          <text x="54" y="34" font-family="Outfit,sans-serif" font-weight="700" font-size="11" fill="#1D9E75" letter-spacing="2">TRANSPORTATION</text>
+          <rect x="54" y="39" width="160" height="1.5" rx="1" fill="url(#navBadgeGrad)"/>
+        </svg>
       </a>
       
       <!-- Hamburger Menu for Mobile -->
@@ -296,47 +308,47 @@
           <h4>Detroit</h4>
           <p>Full Detroit coverage, linking clients to downtown clinics and major medical networks.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🏡</span>
           <h4>Dearborn</h4>
           <p>Prompt service to clinics, dialysis centers, and Corewell Health Dearborn.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🌆</span>
           <h4>Taylor</h4>
           <p>Serving residents and clinical hubs surrounding the Beaumont/Oakwood district.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🌳</span>
           <h4>Southgate</h4>
           <p>Reliable local transport for medical procedures and pharmacy runs.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🌊</span>
           <h4>Wyandotte</h4>
           <p>Care-focused transport for physical therapy and dialysis visits.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🏘️</span>
           <h4>Lincoln Park</h4>
           <p>Safe door-to-door escort transport for senior and adult living residents.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">⛵</span>
           <h4>Trenton</h4>
           <p>Connecting patients in Trenton to regional outpatient specialists.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🍁</span>
           <h4>Allen Park</h4>
           <p>Safe transportation for veterans and seniors to local medical checkups.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">🍃</span>
           <h4>Riverview</h4>
           <p>Punctual therapy and doctor appointment visits for Riverview clients.</p>
         </div>
-        <div class="city-card">
+        <div class="city-card glass-card">
           <span class="city-icon">⚓</span>
           <h4>Rockwood</h4>
           <p>Extended Downriver service ensuring our outer communities stay connected.</p>
@@ -365,18 +377,18 @@
     </div>
     
     <div class="gallery-grid">
-      <div class="gallery-item glass-card" data-index="0" data-image="assets/logo.png" data-caption="Auggie Medical Transportation official seal. Safe, reliable, and punctual transportation. All drivers are BLS and First Aid certified.">
+      <div class="gallery-item" data-index="0" data-image="assets/fleet_side.jpg" data-caption="Side-profile view of our official Auggie Medical Transport vehicle, fully marked and easy to identify on the road.">
         <div class="img-wrap">
-          <img src="assets/logo.png" alt="Auggie Medical Transportation Logo Banner">
-          <div class="img-overlay"><span>🔍 View Logo Details</span></div>
+          <img src="assets/fleet_side.jpg" alt="Auggie Medical Transport official livery minivan side view">
+          <div class="img-overlay"><span>🔍 View Vehicle</span></div>
         </div>
         <div class="gallery-info">
-          <h4>Certified Credentials</h4>
-          <p>BLS and First Aid Certified Drivers</p>
+          <h4>Official Livery Minivan</h4>
+          <p>Fully marked & easy to identify</p>
         </div>
       </div>
       
-      <div class="gallery-item glass-card" data-index="1" data-image="assets/fleet_jet.jpg" data-caption="Our clean black minivan on standby for airline transfers and private airport sideline pickups.">
+      <div class="gallery-item" data-index="1" data-image="assets/fleet_jet.jpg" data-caption="Our clean black minivan on standby for airline transfers and private airport sideline pickups.">
         <div class="img-wrap">
           <img src="assets/fleet_jet.jpg" alt="Minivan on airport runway next to private jet">
           <div class="img-overlay"><span>🔍 View Runway Standby</span></div>
@@ -387,7 +399,7 @@
         </div>
       </div>
       
-      <div class="gallery-item glass-card" data-index="2" data-image="assets/fleet_stretcher.jpg" data-caption="Heavy-duty professional medical stretcher ready for door-to-door patient transfers.">
+      <div class="gallery-item" data-index="2" data-image="assets/fleet_stretcher.jpg" data-caption="Heavy-duty professional medical stretcher ready for door-to-door patient transfers.">
         <div class="img-wrap">
           <img src="assets/fleet_stretcher.jpg" alt="Medical stretcher outside minivan back door">
           <div class="img-overlay"><span>🔍 View Stretcher Setup</span></div>
@@ -398,7 +410,7 @@
         </div>
       </div>
       
-      <div class="gallery-item glass-card" data-index="3" data-image="assets/fleet_wheelchair.jpg" data-caption="Secure ADA-compliant ramp and secure wheelchair lock systems in the rear of our vehicle.">
+      <div class="gallery-item" data-index="3" data-image="assets/fleet_wheelchair.jpg" data-caption="Secure ADA-compliant ramp and secure wheelchair lock systems in the rear of our vehicle.">
         <div class="img-wrap">
           <img src="assets/fleet_wheelchair.jpg" alt="Wheelchair on vehicle boarding ramp">
           <div class="img-overlay"><span>🔍 View Boarding Ramp</span></div>
@@ -409,7 +421,7 @@
         </div>
       </div>
       
-      <div class="gallery-item glass-card" data-index="4" data-image="assets/fleet_side.jpg" data-caption="Side-profile view of our official Auggie Medical Transport vehicle highlighting driver credentials and phone line.">
+      <div class="gallery-item" data-index="4" data-image="assets/fleet_side.jpg" data-caption="Side-profile view of our official Auggie Medical Transport vehicle highlighting driver credentials and phone line.">
         <div class="img-wrap">
           <img src="assets/fleet_side.jpg" alt="Black minivan parked showing livery decal">
           <div class="img-overlay"><span>🔍 View Fleet Decal</span></div>
@@ -456,7 +468,7 @@
         </div>
       </div>
       
-      <div class="review-card">
+      <div class="review-card glass-card">
         <div class="star-rating">⭐⭐⭐⭐⭐</div>
         <p class="review-text">
           "Auggie Medical Transport is exceptionally reliable. I called them on short notice on a holiday weekend for an urgent dialysis transport and they arrived within the hour. Outstanding service, safety, and care!"
@@ -470,7 +482,7 @@
         </div>
       </div>
       
-      <div class="review-card">
+      <div class="review-card glass-card">
         <div class="star-rating">⭐⭐⭐⭐⭐</div>
         <p class="review-text">
           "Kind and respectful, with many incredible stories to tell. I support this business! If you need safe and friendly medical transport in the area, Augustin is the absolute best."
@@ -483,7 +495,72 @@
           </div>
         </div>
       </div>
+      <div class="review-card glass-card">
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">
+          "Auggie is always on time, which matters so much when you have dialysis appointments. He treats my father with real dignity and care. We would never use anyone else for medical transport."
+        </p>
+        <div class="review-author">
+          <div class="author-avatar">SR</div>
+          <div>
+            <h4>Sandra R.</h4>
+            <small>Google Verified Reviewer</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card glass-card">
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">
+          "Called last minute for a wheelchair transport and Auggie showed up fast, professional, and kind. The van is spotless and he made my mother feel completely at ease. Highly recommend!"
+        </p>
+        <div class="review-author">
+          <div class="author-avatar">TW</div>
+          <div>
+            <h4>Tanya Williams</h4>
+            <small>Google Verified Reviewer</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card glass-card">
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+        <p class="review-text">
+          "Best medical transport service in the area. Auggie goes above and beyond every single time. Punctual, compassionate, and professional. Our whole family trusts him completely."
+        </p>
+        <div class="review-author">
+          <div class="author-avatar">DM</div>
+          <div>
+            <h4>David M.</h4>
+            <small>Google Verified Reviewer</small>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Google Reviews CTA -->
+    <div class="reviews-cta">
+      <div class="google-rating-summary">
+        <div class="google-stars">⭐⭐⭐⭐⭐</div>
+        <div class="google-rating-text">
+          <span class="rating-number">4.7</span>
+          <span class="rating-label">out of 5 &nbsp;·&nbsp; 35 Google Reviews</span>
+        </div>
+      </div>
+      <a href="https://share.google/htfj23QDnP0vUgstF" target="_blank" rel="noopener" class="btn-google-review">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right:8px;vertical-align:-3px">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+        </svg>
+        Read All Reviews on Google
+      </a>
+      <a href="https://share.google/htfj23QDnP0vUgstF" target="_blank" rel="noopener" class="btn-write-review">
+        ✍️ Write Us a Review
+      </a>
+    </div>
+
   </section>
 
   <!-- Contact Credentials Footer Banner -->
@@ -515,7 +592,19 @@
   <footer>
     <div class="footer-container">
       <div class="footer-brand">
-        <img src="assets/logo.png" alt="Auggie Logo Light" class="footer-logo">
+        <svg width="200" height="44" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Auggie Medical Transportation">
+          <defs>
+            <linearGradient id="footerBadgeGrad" x1="0%" y1="0%" x2="135%" y2="135%">
+              <stop offset="0%" style="stop-color:#378ADD"/>
+              <stop offset="100%" style="stop-color:#1D9E75"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="2" width="44" height="44" rx="8" fill="url(#footerBadgeGrad)"/>
+          <text x="22" y="32" text-anchor="middle" font-family="Outfit,sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="-0.5">AMT</text>
+          <text x="54" y="18" font-family="Outfit,sans-serif" font-weight="800" font-size="13" fill="#85B7EB" letter-spacing="1.5">AUGGIE MEDICAL</text>
+          <text x="54" y="34" font-family="Outfit,sans-serif" font-weight="700" font-size="11" fill="#5DCAA5" letter-spacing="2">TRANSPORTATION</text>
+          <rect x="54" y="39" width="160" height="1.5" rx="1" fill="url(#footerBadgeGrad)"/>
+        </svg>
         <p>Providing safe, reliable, and punctual non-emergency medical transportation across Taylor, Dearborn, Detroit, and Metro Wayne County. All drivers are BLS &amp; First Aid certified.</p>
       </div>
       
@@ -543,6 +632,7 @@
         <p>📞 Phone: <a href="tel:+12696153566">+1 (269) 615-3566</a></p>
         <p>💬 WhatsApp: <a href="https://wa.me/12696153566" target="_blank" rel="noopener">+1 (269) 615-3566</a></p>
         <p>📧 Email: <a href="mailto:auggiemedicaltransportatin@yahoo.com" class="footer-email">auggiemedicaltransportatin@yahoo.com</a></p>
+        <p>🔵 Facebook: <a href="https://www.facebook.com/p/Auggie-Medical-Transportation-61552068040434/" target="_blank" rel="noopener">Auggie Medical Transportation</a></p>
       </div>
     </div>
     
@@ -558,11 +648,27 @@
     <span class="float-icon">💬</span>
     <div class="float-tooltip">
       <strong>Auggie Transport</strong>
-      <p>Chat with us on WhatsApp</p>
+      <p>Tap to chat with us on WhatsApp</p>
     </div>
   </a>
 
   <!-- Custom Scripts -->
   <script src="index.js"></script>
+  <!-- Google Reviews Floating Badge -->
+  <a href="https://share.google/htfj23QDnP0vUgstF" target="_blank" rel="noopener" class="google-float-badge" aria-label="See our Google Reviews">
+    <div class="gfb-inner">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+      </svg>
+      <div class="gfb-text">
+        <span class="gfb-stars">★★★★★</span>
+        <span class="gfb-rating">4.7 <small>· 35 reviews</small></span>
+      </div>
+    </div>
+  </a>
+
 </body>
 </html>
